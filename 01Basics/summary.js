@@ -27,3 +27,39 @@ const myFnctions = function(){
     name = "asif"
     age = 20
 }
+
+//stack & hipe
+
+// stack is used for primiive data types
+// hipe is use for non primitive or reference data types
+
+// stack
+
+let yourName = "kaif"
+
+let Name = yourName
+
+yourName = "asif"
+
+
+console.log (yourName);
+console.log (Name);
+
+//Hipe
+
+let userOne = {
+    name: "aman",
+    email: "aman@gmail.com",
+    age: 20
+}
+
+console.log (userOne);
+
+userTwo = userOne
+
+console.log(userTwo);
+
+userTwo.name = "arif"
+userOne.age = 25
+console.log(userOne);
+console.log(userTwo);
