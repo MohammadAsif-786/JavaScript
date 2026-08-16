@@ -1,5 +1,3 @@
-const { use } = require("react");
-
 const asiApp = new Object("Asif");// Singleton
 // console.log(asiApp);
 
@@ -59,4 +57,46 @@ const userData = [
 // console.log(Object.values(app));
 // console.log(Object.entries(app));
 
-console.log(app.hasOwnProperty(`isLoggedIn`));
+// console.log(app.hasOwnProperty(`isLoggedIn`));
+
+const course =  {
+    name:"JavaScript",
+    courseInstructor:"HiteshSir",
+    price:999
+}
+// console.log(course.name);
+// const {price} = course
+const {price: rs} = course
+// console.log(price);
+console.log(rs);
+
+// API'S
+
+// {
+//     name:"asif",
+//     email:"a@gmail.com",
+// add:"lucknow",           //JSON Formate
+//     mobileNum: 8303600000
+// }
+
+[
+// {
+//     name:"asif",
+//     email:"a@gmail.com",
+// add:"lucknow",           
+//     mobileNum: 8303600000
+// }
+// {
+//     name:"asif",
+//     email:"a@gmail.com",
+// add:"lucknow",           
+//     mobileNum: 8303600000
+// }
+// {
+//     name:"asif",
+//     email:"a@gmail.com",
+// add:"lucknow",           
+//     mobileNum: 8303600000
+// }
+    
+]
